@@ -58,10 +58,12 @@ main{
 }
 #main-content{
     display: flex;
-    
 }
 figure{
     float: left;
+}
+figure cite{
+    display: block;
 }
 
 /* ASIDE */
@@ -70,7 +72,6 @@ aside{
     background-color:white;
     display: flex;
     flex-direction: column;
-    
     padding-top: 2rem;
 }
 aside h2{

@@ -1,9 +1,15 @@
 @media screen and (max-width: 560px) {
-    #main-content{
-        display: flex;
-        flex-direction: column;
-    }
-    aside{
-        width: 100%;
-    }
+ header h2{
+    display: none;
+ }
+ nav a {
+    padding: 1em 0;
+ }
+ figure{
+    float: none;
+    text-align: center;
+ }
+ figure img{
+    width: 50%;
+ }
 }
