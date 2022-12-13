@@ -90,8 +90,21 @@ aside li{
     flex-direction: column;
 }
 /* FOOTER */
-footer
+#social-nav
 {
-    background-color: rgb(162, 166, 174);
-    height: 100%;
+    background: #212121;
+    padding-top: 30px;
+    justify-content: center;
+}
+#social-nav ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    width: 30%;
+    justify-content: center;
+    gap: 2rem;
+}
+#social-nav li a{
+    align-items: center;
+   justify-content: center;
 }
