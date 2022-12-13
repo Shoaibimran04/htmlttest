@@ -1,0 +1,12 @@
+@media screen and (max-width: 760px) {
+    #main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    figure{
+        float: left;
+    }
+}

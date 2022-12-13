@@ -1,0 +1,96 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+nav{
+    background-color: black;
+}
+#main-nav a:hover{
+    background: white;
+    transition: 0.3s;
+    color: black;
+}
+#main-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+nav a{
+    display: flex;
+    height: 50px;
+    padding-top: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+#main-header{
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 2em;
+    color: white;
+}
+header h2{
+    font-size: 30px;
+}
+
+/* MAIN CONTENT */
+main img{
+    width: 20%;
+}
+
+/* MAIN */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+#main-content{
+    display: flex;
+    
+}
+figure{
+    float: left;
+}
+
+/* ASIDE */
+aside{
+    width: 40%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 2rem;
+}
+aside h2{
+    background-color: lightgrey;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+aside li{
+    padding: 1em;
+}
+.grey{
+    background-color: lightgrey;
+    flex-direction: column;
+}
+/* FOOTER */
+footer
+{
+    background-color: rgb(162, 166, 174);
+    height: 100%;
+}

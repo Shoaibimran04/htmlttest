@@ -1,0 +1,9 @@
+@media screen and (max-width: 560px) {
+    #main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+}
